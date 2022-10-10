@@ -26,30 +26,59 @@ ul a {
 
 ul {
     padding-top: 35px;
-    padding-left: 150px;
-    display: inline-flex;
+    padding-left: 0px;
     list-style: none;
-    align-items: center;    
-    /* margin-left: 40px; */
-    justify-content: center;
+    
 }
 
-#logo-menu{
+#logo-container{
     height: 100px;
     width: 1098;
     background-color: transparent;
     border-top: 1px solid var(--white);
     border-bottom: 1px solid var(--white);
-    position: sticky;
+    
 
 }
 
 #logo{
-    height: 100px;
+    height: 98px;
+    border-right: 1px solid var(--white);
+    border-left: 1px solid var(--white);
     
 }
 
 #menu{
     height:100px;
-    width: 893px;
+    width: 662px;
+}
+
+#contatobox{
+    height: 98px;
+    width: 314px;
+    background-color: #1E1A1B;
+    border-right: 1px solid var(--white);
+    border-left: 1px solid var(--white);   
+
+}
+
+#contato{
+    height: 98px;
+    width: 100px;
+    background-color: black;
+    /* border-right: 1px solid var(--white);
+    border-left: 1px solid var(--white);    */
+
+}
+
+#contato img{
+    height: 100%;
+    width: 100%;
+}
+
+#patch{
+    height: 98px;
+    width: 183px;
+    
+
 }
