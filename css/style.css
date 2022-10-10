@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;700&family=Teko:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,14 +26,14 @@ ul a {
 
 ul {
     padding-top: 35px;
-    padding-left: 0px;
+    padding-left: 80px;
     list-style: none;
     
 }
 
-#logo-container{
+#logo-container {
     height: 100px;
-    width: 1300px;
+    width: 1370px;
     background-color: transparent;
     border-top: 1px solid var(--white);
     border-bottom: 1px solid var(--white);
@@ -41,28 +41,29 @@ ul {
 
 }
 
-#logo{
+#logo {
     height: 98px;
-    border-right: 1px solid var(--white);
-    border-left: 1px solid var(--white);
+    padding-left: 70px;
+    /* border-right: 1px solid var(--white);
+    border-left: 1px solid var(--white); */
     
 }
 
-#menu{
+#menu {
     height:100px;
-    width: 662px;
+    width: 828px;
 }
 
-#contatobox{
+#contatobox {
     height: 98px;
-    width: 314px;
+    width: 200px;
     background-color: #1E1A1B;
-    border-right: 1px solid var(--white);
+    /* border-right: 1px solid var(--white); */
     border-left: 1px solid var(--white);   
 
 }
 
-#contato{
+#contato {
     height: 98px;
     width: 100px;
     background-color: black;
@@ -71,14 +72,14 @@ ul {
 
 }
 
-#contato img{
+#contato img {
     height: 100%;
     width: 100%;
 }
 
-#patch{
+#patch {
     height: 98px;
-    width: 183px;
+    width: 297px;
     
 
 }
