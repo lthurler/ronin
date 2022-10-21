@@ -16,20 +16,35 @@ a {
 }
 
 ul a {
-    text-decoration: none;
-    color: var(--white);
-       
+    color: var(--white);       
 }
 
+body {
+    /* background: linear-gradient(125deg, rgba(45,6,62,1) 0%, rgba(101,38,96,1) 40%, rgba(69,11,53,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+}
+
+/* .div-container {
+    background: linear-gradient(125deg, rgba(45,6,62,1) 0%, rgba(101,38,96,1) 40%, rgba(69,11,53,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+
+/* header{
+    border-bottom: 0.5px solid #fff;
+
+} */
+
 #logo {
-    height: 110px;
-    width: auto;
+    max-height: 150px;
+    max-width: 400px;
     padding-left: 70px;
-    /* opacity: 1; */
-    padding-top: 20px;
-    
-    
-    
+    padding-top: 10px; 
+    padding-bottom: 5px;       
 }
 
 .menu {
@@ -37,8 +52,7 @@ ul a {
     width: 100%;
     justify-content: center;
     list-style: none;
-    padding: 35px 60px;
-    color: var(--white);
+    padding: 35px 60px;  
 }
 
 .menu li {
@@ -92,10 +106,27 @@ ul a {
     width: 120%;
 }
 
-body {
-    position:relative;  
-    background-image: url(/img/medium-shot-man-wearing-vr-glasses.jpg);
-    background-size: cover;
+.imagem-conteudo-p {
+
+    max-width: 500px;
+
+
+}
+
+#footer-div {
+    background: linear-gradient(125deg, rgba(45,6,62,1) 0%, rgba(101,38,96,1) 40%, rgba(69,11,53,1) 100%);
+    border: none;
+    border-radius: 24px;
+    z-index: 4;
+    width: 300px;
+    height: 50px;
+
+}
+
+#footer-div img {
+    width: 40px;
+    height: 40px;
+
 }
 
 
