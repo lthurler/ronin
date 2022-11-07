@@ -33,9 +33,7 @@
     height: 420px;
     display: block;
     position: absolute;
-
     transform: scale(0);
-
     transition: all .7s ease-in-out;
 }
 
@@ -49,13 +47,10 @@
     height: 100%;
     display: none;
     position: absolute;
-
-	  opacity: 0;
+    opacity: 0;
     z-index: 9;
     cursor: pointer;
-
     transition: opacity .2s;
-
     color: #FFF;
     font-size: 156pt;
     text-align: center;
@@ -73,9 +68,7 @@
 
 input:checked + .slide-container  .slide {
     opacity: 1;
-
     transform: scale(1);
-
     transition: opacity 1s ease-in-out;
 }
 

@@ -40,8 +40,10 @@ body {
 } */
 
 #logo {
-    max-height: 150px;
-    max-width: 400px;
+    /* max-height: 150px;
+    max-width: 400px; */
+    max-height: 85px;
+    max-width: 250px;
     padding-left: 70px;
     padding-top: 10px; 
     padding-bottom: 5px;       
@@ -52,13 +54,14 @@ body {
     width: 100%;
     justify-content: center;
     list-style: none;
-    padding: 35px 60px;  
+    padding: 20px 60px;  
 }
 
 .menu li {
     display: block;
     height: 100%;
     font-family: var(--font-primary);
+    font-size: 15px;
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -110,36 +113,25 @@ body {
 }
 
 .imagem-conteudo-p {
-
     max-width: 500px;
-
-
 }
 
 #footer-div {
     background: #5F3C84;
     border: none;
-    border-radius: 24px;
+    border-radius: 50px;
     z-index: 4;
-    width: 120px;
+    width: 100px;
     height: 25px;
-    
-
 }
 
 #footer-div a {
     color: var(--white);
-    font-size:large;
+    font-size: 15px;
     text-shadow: 2px 2px 1px black;
-
-
 }
 
-/* #footer-div  a i {
-    width: 70px;
-    height: 70px;
 
-} */
 
 
 
