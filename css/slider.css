@@ -10,6 +10,8 @@
     display: block;
     margin: 0 auto;
     position: relative;
+    border: 1px solid #FFF;
+    overflow: hidden;
 }
 
 .slides * {
