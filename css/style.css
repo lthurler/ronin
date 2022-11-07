@@ -123,22 +123,23 @@ body {
     z-index: 4;
     width: 120px;
     height: 25px;
-    color: var(--white);
+    
 
 }
 
 #footer-div a {
     color: var(--white);
     font-size:large;
+    text-shadow: 2px 2px 1px black;
 
 
 }
 
-#footer-div  a i {
+/* #footer-div  a i {
     width: 70px;
     height: 70px;
 
-}
+} */
 
 
 
