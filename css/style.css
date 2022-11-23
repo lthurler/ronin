@@ -139,7 +139,7 @@ ul a:hover {
 }
 
 
-@media(max-width: 1366px) {
+/* @media(max-width: 1366px) and (max-height: 800px) {
 
     .div-container {
         padding-right: 5px;
@@ -147,6 +147,10 @@ ul a:hover {
 
     header{
         margin-bottom: 30px;
+    }
+
+    .slide {
+        height: 520px;
     }
 
     .slide p {
@@ -162,7 +166,7 @@ ul a:hover {
         padding-top: 130px;
     }
 
-}
+} */
 
 
 
