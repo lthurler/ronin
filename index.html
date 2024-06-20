@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ronin Sistemas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">    
-    <link rel="stylesheet" href="/css/root.css">
-    <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
 
 </head>
 
@@ -17,25 +18,104 @@
     <header>
         <img src="/img/logo novo transp.png" alt="logo cartao">     
 
-            <nav id="menu">
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Manutenção</a></li>
-                    <li><a href="">Redes</a></li>
-                    <li><a href="">Cftv</a></li>
-                    <li><a href="">Websites</a></li>
-                </ul>
-            </nav>
-        <!-- <img src="/img/logo cru.png" alt="logo">            -->
+        <nav id="menu">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Manutenção</a></li>
+                <li><a href="">Redes</a></li>
+                <li><a href="">Cftv</a></li>
+                <li><a href="">Websites</a></li>
+            </ul>
+        </nav>
+
+        <a href="https://api.whatsapp.com/send?phone=5521981860460&text=Oi, mais informação, por favor!" target="_blank">
+            <button><i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff;"></i>  (21) 98186-0460</button>
+        </a>
     </header>
 
     <main>
+        <section class="pt-4">
+            <div class="container">
+                <ul class="slides">
+                    <!-- <input type="radio" name="radio-btn" id="img-1" checked /> -->
+                    <li class="slide-container">
+                        <div class="slide active">
+                            <img id="primeira-imagem"
+                                src="./img/1904.i402.011_Web development isometric concept infographics.png" alt="slide1" />
+                        </div>
+                        <!-- <div class="nav">
+                                        <label for="img-6" class="prev">&#x2039;</label>
+                                        <label for="img-2" class="next">&#x203a;</label>
+                                    </div> -->
+                    </li>
+        
+                    <!-- <input type="radio" name="radio-btn" id="img-2" /> -->
+                    <li class="slide-container">
+                        <div class="slide">
+                            <p>As melhores soluções para <strong>WIFI</strong><br> Internos e Externos</p>
+                            <img src="./img/rede-mesh.jpg" alt="slide2" />
+                        </div>
+                        <!-- <div class="nav">
+                                        <label for="img-1" class="prev">&#x2039;</label>
+                                        <label for="img-3" class="next">&#x203a;</label>
+                                    </div> -->
+                    </li>
+        
+                    <!-- <input type="radio" name="radio-btn" id="img-3" /> -->
+                    <li class="slide-container">
+                        <div class="slide">
+                            <p><strong>HomeSites</strong> personalizados<br>para você ou seu empreendimento</p>
+                            <img src="./img/data-technology-blue-background-with-hacker-remixed-media.jpg" alt="slide3" />
+                        </div>
+                        <!-- <div class="nav">
+                                        <label for="img-2" class="prev">&#x2039;</label>
+                                        <label for="img-4" class="next">&#x203a;</label>
+                                    </div> -->
+                    </li>
+        
+                    <!-- <input type="radio" name="radio-btn" id="img-4" /> -->
+                    <li class="slide-container">
+                        <div class="slide">
+                            <p>Sistema <strong>CFTV</strong><br>para residências, condomínios e empresas</p>
+                            <img src="./img/Design sem nome (4).png"
+                                alt="slide4" />
+                        </div>
+                        <!-- <div class="nav">
+                                        <label for="img-3" class="prev">&#x2039;</label>
+                                        <label for="img-5" class="next">&#x203a;</label>
+                                    </div> -->
+                    </li>
+        
+                    <!-- <input type="radio" name="radio-btn" id="img-5" /> -->
+                    <li class="slide-container">
+                        <div class="slide">
+                            <p><strong>Profissionais</strong><br>qualificados e dedicados</p>
+                            <img src="./img/rear-view-of-programmer-working-all-night-long.jpg" alt="slide5" />
+                        </div>
+                        <!-- <div class="nav">
+                                        <label for="img-4" class="prev">&#x2039;</label>
+                                        <label for="img-1" class="next">&#x203a;</label>
+                                    </div> -->
+                    </li>
+        
+                    <!-- <li class="nav-dots">
+                                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                                  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                                  <label for="img-5" class="nav-dot" id="img-dot-5"></label>                          
+                                </li> -->
+                </ul>
+            </div>
+        </section>
 
     </main>
 
     <footer>
 
+
     </footer>
 </Body>
+    <script src="./js/main.js"></script>
 
 </html>
