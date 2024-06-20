@@ -9,4 +9,39 @@
 
 a {
     text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    color: #673085;
+}
+
+body {
+    max-width: 100vw;
+    background-color: #ffff;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between;     */
+    align-items: center;
+    border: 1px, solid;
+    border-color: #673085;
+}
+
+header img {
+    width: 20%;
+    padding-left: 2rem;
+    /* padding-top: 1rem; */
+}
+
+nav {
+    margin: 0 auto;    
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
 }
