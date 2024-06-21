@@ -1,0 +1,202 @@
+.black {
+    color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bd-white {
+    background-color: var(--white);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.gold {
+    color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--gold);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.blue-dark {
+    color: var(--blue-dark);
+}
+
+.bg-blue-dark {
+    background-color: var(--blue-dark);
+}
+
+.red {
+    color: var(--red);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bd-gray{
+    border-color:  var(--gray);
+}
+
+.bd-botton-gray{
+    border-bottom: solid var(--gray);
+
+}
+
+.green{
+    color: var(--green);
+}
+
+.green-dark {
+    color: var(--green-dark);
+}
+
+.blue-dark2{
+    color: var(--blue-dark2);
+}
+
+.bg-blue-dark2{
+    background-color: var(--blue-dark2);
+}
+
+.orange{
+    color: var(--orange);
+}
+
+.orange-dark{
+    color: var(--orange-dark);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-orange-dark{
+    background-color: var(--orange-dark);
+}
+
+.bd-orange{
+    border-color: var(--orange);
+}
+
+.bd-orange-dark{
+    border-color: var(--orange-dark);
+}
+
+.red-bld{
+    color: var(--red-bld);
+}
+
+.bg-red-bld{
+    background-color: var(--red-bld);
+}
+
+.bd-red-bld{
+    border-color: var(--red-bld);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+.bd-yellow{
+    border-color: var(--yellow);
+}
+
+.purple-dark {
+    color: var(--purple-dark);
+}
+
+.bg-purple-dark{
+    background-color: var(--purple-dark);
+}
+
+.bd-purple-dark{
+    border-color: var(--purple-dark);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.bg-purple{
+    background-color: var(--purple);
+}
+
+.bd-purple{
+    border-color: var(--purple);
+}
+
+.blue-dark3{
+    color: var(--blue-dark3);
+}
+
+.bg-blue-dark3{
+    background-color: var(--blue-dark3);
+}
+
+
+
+
+.fs-xs{
+    font-size: var(--fs-xs);
+}
+
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+
+.fs-md{
+    font-size: var(--fs-md);   
+}
+
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+
+.fs-xl{
+    font-size: var(--fs-xl);   
+}
+
+.font-p{
+    font-family: var(--font-primary);
+}
+
+.font-s{
+    font-family: var(--font-secondary);
+}
+
+.font-t{
+    font-family: var(--font-ternary);
+
+}
+
+
