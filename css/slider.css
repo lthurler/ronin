@@ -44,7 +44,7 @@
     height:470px;
     display: block;
     position: absolute;
-    transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;   
     
 }
 
@@ -52,7 +52,8 @@
     padding-bottom: 1rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;    
-    font-weight: 700;    
+    font-weight: 600;
+    font-size: 1.3rem;    
     color: #8E5098;
     text-align: center;
     /* text-shadow: 2px 2px 1px #673085; */
@@ -60,6 +61,7 @@
 
 .slide p strong {
     font-weight: 800;
+    font-size: 1.3rem;
 }
 
 .slide img {
@@ -73,7 +75,6 @@
 
 .slide.active {
     opacity: 1;
-
 }
 
 .nav label {
