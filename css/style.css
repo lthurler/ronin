@@ -49,10 +49,12 @@ button {
     color: #ffff;
     padding: .7rem;
     font-weight: bold;
+    transition: color .3s;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: #0af150;
 }
 
 h1 {
@@ -63,8 +65,12 @@ h1 {
     padding-top: 5rem;
 }
 
-section {
+/* section {
     padding-top: 1rem;
+} */
+
+#home {
+    padding-top: 1.65rem;
 }
 
 .section-container {
@@ -85,12 +91,13 @@ section {
 .section-conteudo {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    /* gap: 2rem; */
+    align-items: flex-end;    
     color: #ffff;
 }
 
 .section-conteudo-esquerda {
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     color: #ffff;
 }
@@ -146,23 +153,25 @@ section {
 }
 
 .section-texto-esquerda div:last-child {
-    border: none;
-    border-radius: 50px;
-    overflow: hidden;
     order: 1;
 }
 
 #web-conteudo h2 {
-    padding-right: 6rem;
+    padding-right: 11rem;
+}
+
+#web-texto-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #web-texto {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     gap: 4rem;
     padding-left: 2rem;
     padding-top: 6rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
 }
 
@@ -188,6 +197,29 @@ section {
     width: 100%;
     height: auto;
     padding-bottom: 2rem;
+}
+
+#camera-texto-container {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+#camera-texto {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    padding-right: 1rem;
+}
+
+#camera-imagem-container {    
+    padding-left: 6rem;    
+    padding-bottom: 2rem;    
+    
+}
+
+#camera-imagem {
+    width: 60%;
+    height: auto;    
 }
 
 footer {
