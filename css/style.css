@@ -76,7 +76,13 @@ h1 {
 .section-container {
     display: flex;
     flex-direction: column;
-    background-color: #92429F;    
+    background-color:#673085;    
+}
+
+.section-container-esquerda {
+    display: flex;
+    flex-direction: column;
+    background-color: #92429F;
 }
 
 .direita {
@@ -186,20 +192,30 @@ h1 {
     padding-bottom: 2rem;
 }
 
-#camera-texto {    
+#camera-texto {
+    padding-top: 7rem;    
     padding-right: 1rem;
 }
 
 #camera-foto {
     width: 50%;
-    padding-bottom: 2rem;        
+    padding-bottom: 7rem;        
 }
 
 #redes-texto {
     padding-top: 6rem;
 }
 
+#redes-imagem-container {
+    justify-content: flex-end;
+}
+
 #redes-foto {
+    width: 70%;
+    padding-bottom: 2rem;
+}
+
+#suporte-foto {
     width: 70%;
     padding-bottom: 2rem;
 }
