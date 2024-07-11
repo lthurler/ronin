@@ -9,19 +9,20 @@
     <link rel="shortcut icon" href="/img/logo cru.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />    
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="./css/slider.css">
 
 </head>
 
 <Body>
-    <header>
+    <header id="header">
         <img src="./img/logo novo transp.png" alt="logo cartao">     
 
         <nav id="menu">
             <ul>
-                <li><a href="#menu">Inicio</a></li>
+                <li><a href="#header">Inicio</a></li>
                 <li><a href="#web">Websites</a></li>
                 <li><a href="#camera">Cftv</a></li>
                 <li><a href="#redes">Redes</a></li>
@@ -29,7 +30,41 @@
             </ul>
         </nav>
 
-        <a href="https://api.whatsapp.com/send?phone=5521981860460&text=Ronin, te vi no google,preciso da ajuda de vocês" target="_blank">
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#header" class="nav__link active-link">Inicio</a>
+                </li>
+        
+                <li class="nav__item">
+                    <a href="#web" about class="nav__link">Websites</a>
+                </li>
+        
+                <li class="nav__item">
+                    <a href="#camera" class="nav__link">Cftv</a>
+                </li>
+        
+                <li class="nav__item">
+                    <a href="#redes" class="nav__link">Redes</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#micro" class="nav__link">Suporte</a>
+                </li>
+            </ul>        
+            
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>            
+        </div>
+        
+                   
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-fill"></i>
+        </div>
+        
+
+        <a id="zap"  href="https://api.whatsapp.com/send?phone=5521981860460&text=Ronin, te vi no google,preciso da ajuda de vocês" target="_blank">
             <button><i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff;"></i> Conversar no whatsapp</button>
         </a>
     </header>
@@ -157,8 +192,8 @@
                 <div class="section-conteudo-esquerda">
                     <h2>Suporte de informática</h2>
                     <div class="section-texto-esquerda">
-                        <div>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Montagem e manutenção de microcomputadores. Formatação, troca de peças e otimização de velocidade de desktop e notebook. Montagem de pc gamer personalizado</p>                            
+                        <div id="suporte-texto">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Montagem e manutenção de computadores. Formatação, troca de peças e otimização de velocidade de desktop e notebook. Montagem de pc gamer personalizado</p>                            
                         </div>
                         <div class="section-foto">
                             <img id="suporte-foto" src="./img/suporte.png" alt="foto de suporte">
@@ -175,7 +210,7 @@
 
                 <nav id="footer-menu">
                     <ul>
-                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#header">Inicio</a></li>
                         <li><a href="#web">Websites</a></li>
                         <li><a href="#camera">Cftv</a></li>
                         <li><a href="#redes">Redes</a></li>
@@ -190,6 +225,11 @@
                         <a href="https://api.whatsapp.com/send?phone=5521981860460&text=Ronin, te vi no google,preciso da ajuda de vocês" target="_blank"><img src="/img/whatsapp.svg" alt="logo do whatsapp"></a>                    
                     </nav>
                 </div>
+
+                <div id="email">
+                    <p>contato@roninsistemas.com.br</p>
+                </div>
+
             </div>
 
             <div id="copyright">
