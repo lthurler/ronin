@@ -16,7 +16,7 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    transition: color .3s;
+    transition: .5s ease;
 }
 
 a:hover {
@@ -24,8 +24,13 @@ a:hover {
 }
 
 body {
+<<<<<<< HEAD
     max-width: 100vw;
     background-color: #ffff;    
+=======
+    min-width: 100vw;
+    background-color: #ffff;
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 header {
@@ -51,6 +56,7 @@ header nav ul {
     position: fixed;
     top: -100%;
     left: 0;
+<<<<<<< HEAD
     background-color: #ffff;
     width: 100%;
     max-width: 100vw;
@@ -61,6 +67,13 @@ header nav ul {
     border: 1px #0000;
     border-radius: 20px;
     z-index: 10;
+=======
+    background-color: var(--body-color);
+    width: 100%;
+    box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
+    padding-block: 3.5rem;
+    transition: top .4s;
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 .nav__list {
@@ -71,9 +84,15 @@ header nav ul {
 }
 
 .nav__link {
+<<<<<<< HEAD
     color: #673085;
     font-weight: 400;
     transition: .4s;
+=======
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: color .4s;
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 .nav__close {
@@ -88,6 +107,11 @@ header nav ul {
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 button {
     border-radius: 50px;
     border: none;
@@ -111,9 +135,10 @@ h1 {
     padding-top: 5rem;
 }
 
-/* section {
-    padding-top: 1rem;
-} */
+section {
+    min-width: 100vw;
+    max-width: 100vw;
+}
 
 #home {
     padding-top: 1.65rem;
@@ -124,16 +149,24 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color:#673085;
+<<<<<<< HEAD
     /* min-width: 100vw; */
     max-width: 100vw;
+=======
+    min-width: 100vw;    
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 .section-container-esquerda {
     display: flex;
     flex-direction: column;
     background-color: #92429F;
+<<<<<<< HEAD
     /* min-width: 100vw; */
     max-width: 100vw;
+=======
+    min-width: 100vw;
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 .direita {
@@ -230,7 +263,12 @@ h1 {
     padding: 1rem 2rem;
     background-color: #92429F;
     transition: .5s ease;
+<<<<<<< HEAD
     font-size: 1rem;    
+=======
+    font-size: 1rem;
+    
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 #portfolio:hover {
@@ -244,7 +282,11 @@ h1 {
 }
 
 #camera-texto {
+<<<<<<< HEAD
     padding-top: 7rem;    
+=======
+    padding-top: 7rem;  
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 #camera-foto {
@@ -308,13 +350,19 @@ footer div nav ul {
 #social-link {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     align-items: center;
     gap: 2rem;
     
+=======
+    align-items: center;    
+    gap: 2rem;     
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 #social-link a {
     display: inline-block;
+<<<<<<< HEAD
     width: 6%;
     height: auto;
     padding: 0;
@@ -326,6 +374,18 @@ footer div nav ul {
     width: 100%;
     display: block;
     height: auto;    
+=======
+    width: 6%;    
+    height: auto;    
+    padding: 0;    
+    margin: 0;       
+}
+
+#social-link a img {
+    width: 100%;    
+    display: block;
+    height: auto;        
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 }
 
 #social-link a:hover img {
@@ -351,6 +411,7 @@ footer div nav ul {
     background-color: hsl(207, 4%, 55%);
 }
 
+<<<<<<< HEAD
 /*=============== SCROLL UP ===============*/
 .scrollup {
     position: fixed;
@@ -384,10 +445,15 @@ footer div nav ul {
             overflow-x: hidden;            
         }
 
+=======
+
+@media screen and (max-width: 950px) {
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
     #menu {
         display: none;
     }
 
+<<<<<<< HEAD
         .nav__menu {
             width: 100%;            
             max-width: 100%;
@@ -402,6 +468,15 @@ footer div nav ul {
     .nav__toggle i {
         font-size: 2rem;
         color: #673085;
+=======
+    .nav__toggle {
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .nav__toggle i {
+        font-size: 2rem;
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
     }
 
     .show-menu {
@@ -414,11 +489,15 @@ footer div nav ul {
 
     header img {
         width: 40%;
+<<<<<<< HEAD
         padding-left: 1rem;
+=======
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
     }
 
     #home {
         padding-top: 4rem;
+<<<<<<< HEAD
         padding-bottom: 5rem;        
     }
 
@@ -429,28 +508,46 @@ footer div nav ul {
 
     .section-conteudo,
     .section-conteudo-esquerda {
+=======
+        padding-bottom: 5rem;
+    }
+
+    .section-conteudo, .section-conteudo-esquerda {
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0;
+<<<<<<< HEAD
         width: 100%;
     }
 
     .section-conteudo h2,
     .section-conteudo-esquerda h2 {
+=======
+        width: 100%;        
+    }
+
+    .section-conteudo h2, .section-conteudo-esquerda h2 {
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
         padding: 0;
         text-align: center;
     }
 
+<<<<<<< HEAD
     .section-texto,
     .section-texto-esquerda {
+=======
+    .section-texto, .section-texto-esquerda {
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: .97rem;
         padding: 0;
+<<<<<<< HEAD
         width: 100%;
         max-width: 100%;
     }
@@ -476,6 +573,22 @@ footer div nav ul {
         order: 2;
         padding: 0 1rem 5rem 1rem;
     }
+=======
+        width: 100%;        
+    }    
+
+    .section-texto div:last-child, .section-texto-esquerda div:last-child {
+        height: auto;
+        order: 1;
+    }    
+
+    #web-texto, .section-texto-esquerda div:first-child, #redes-texto {
+        width: 100%;
+        /* max-width: 100%; */
+        order: 2;
+        padding: 0 1rem 5rem 1rem;
+    }    
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
 
     #web-texto div {
         min-width: 100%;
@@ -483,8 +596,13 @@ footer div nav ul {
     }
 
     #web-texto p {
+<<<<<<< HEAD
         word-wrap: break-word;
         overflow-wrap: break-word;
+=======
+        word-wrap: break-word;        
+        overflow-wrap: break-word;               
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
     }
 
     #web-foto {
@@ -502,7 +620,11 @@ footer div nav ul {
     }
 
     #redes-imagem-container {
+<<<<<<< HEAD
         padding: .7rem 0 0 0;
+=======
+        padding: .7rem 0 0 0;        
+>>>>>>> 8fb49f243de409e7614463bda8e1fa1964a6bee0
         justify-content: center;
     }
 
