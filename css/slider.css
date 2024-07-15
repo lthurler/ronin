@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); } */
-
 .slides {
     padding: 0;
-    width: 95vw;
-    /* width: 609px; */
-    /* width: 1000px; */
-    /* height: 420px; */
-    /* height: 420px; */
+    width: 95vw;    
     height: 450px;
     display: block;
     margin: 0 auto;
