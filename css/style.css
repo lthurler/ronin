@@ -10,10 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 a {
     text-decoration: none;
     color: #92429F;
@@ -389,7 +385,7 @@ footer div nav ul {
 @media screen and (max-width: 950px) {
 
     body {
-            overflow-x: hidden;            
+        overflow-x: hidden;            
     }
 
     #menu {
