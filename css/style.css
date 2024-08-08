@@ -23,6 +23,10 @@ a:hover {
     color: #b869c4;
 }
 
+strong {
+    color: #b869c4;
+}
+
 body {
     max-width: 100vw;
     background-color: #ffff;    
@@ -45,6 +49,10 @@ header nav ul {
     display: flex;
     list-style: none;
     gap: 2rem;    
+}
+
+#zap-mob {
+    display: none;
 }
 
 .nav__menu {
@@ -95,8 +103,7 @@ button {
     color: #ffff;
     padding: .7rem;
     font-weight: bold;
-    transition: .5s ease;
-    transition: .5s ease;
+    transition: .5s ease;    
 }
 
 button:hover {
@@ -120,6 +127,16 @@ h1 {
     padding-top: 1.65rem;
     padding-bottom: 10rem;    
 }
+
+#zap button div {
+    display: flex;    
+}
+
+#zap button div img {
+    width: 25%; 
+    padding-left: 1rem;   
+}
+
 
 .section-container {
     display: flex;
@@ -226,6 +243,10 @@ h1 {
     justify-content: center;
 }
 
+#web-texto div p {
+    padding-top: 2rem;
+}
+
 #portfolio {
     padding: 1rem 2rem;
     background-color: #92429F;
@@ -244,16 +265,20 @@ h1 {
 }
 
 #camera-texto {
-    padding-top: 6rem;    
+    padding-top: 5rem;    
+}
+
+#camera-texto p strong {
+    color: #4a1b63;
 }
 
 #camera-foto {
-    width: 50%;
-    padding-bottom: 2rem;
+    width: 80%;
+    padding-bottom: 4rem;
 }
 
 #redes-texto {
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
 
 #redes-imagem-container {
@@ -270,8 +295,16 @@ h1 {
     padding-bottom: 2rem;
 }
 
-#micro {
+#suporte {
     padding-bottom: 0;
+}
+
+#suporte-texto {
+    padding-top: 6rem;
+}
+
+#suporte-texto p strong {
+    color: #4a1b63;
 }
 
 footer {
@@ -382,6 +415,11 @@ footer div nav ul {
     bottom: 3rem;
 }
 
+#avaliacao {
+    padding: 5rem 0 ;
+    background-color: #673085;
+}
+
 @media screen and (max-width: 950px) {
 
     body {
@@ -392,10 +430,10 @@ footer div nav ul {
         display: none;
     }
 
-        .nav__menu {
-            width: 100%;            
-            max-width: 100%;
-        }
+    .nav__menu {
+        width: 100%;            
+        max-width: 100%;
+    }
 
     .nav__toggle {
         display: block;
@@ -425,6 +463,26 @@ footer div nav ul {
         padding-top: 4rem;
         padding-bottom: 5rem;        
     }
+
+    #zap-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    #zap-mob {
+        display: inline;        
+    }
+
+    #zap-mob button div {
+        display: flex;
+    }
+
+    #zap-mob button div img {
+        width: 25%;
+        padding-left: 1rem;
+    }    
 
     .section-container,
     .section-container-esquerda {
@@ -468,10 +526,12 @@ footer div nav ul {
         order: 1;
     }
 
+        #web-foto,
         #camera-foto,
         #redes-foto,
         #suporte-foto {
-            max-width: 100%;            
+            max-width: 100%;
+            padding: 0;
         }
 
     #web-texto,
@@ -490,20 +550,10 @@ footer div nav ul {
     #web-texto p {
         word-wrap: break-word;
         overflow-wrap: break-word;
-    }
-
-    #web-foto {
-        width: 50%;
-        padding: 0;
-    }
+    }    
 
     #camera-texto {
-        padding: 5rem 1rem 5rem 1rem;
-    }
-
-    #camera-foto {
-        width: 30%;
-        padding: 3rem 0 0 0;
+        padding: 2rem 1rem;
     }
 
     #redes-imagem-container {
@@ -513,20 +563,9 @@ footer div nav ul {
 
     #redes-texto {
         padding-top: 2rem;
-    }
-
-    #redes-foto {
-        width: 50%;
-        padding: 0;
-    }
+    }    
 
     #suporte-texto {
         padding-top: 2.5rem;
     }
-
-    #suporte-foto {
-        width: 50%;
-        padding: .5rem 0 0 0;
-    }
-
 }
