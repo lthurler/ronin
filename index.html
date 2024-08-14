@@ -13,7 +13,7 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MBWSXS29');</script>
     
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <!-- <link rel="dns-prefetch" href="https://fonts.googleapis.com"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -41,12 +41,13 @@
     <link rel="shortcut icon" href="./img/logo cru.png" type="image/x-icon">    
     <link rel="canonical" href="https://roninsistemas.com.br/">
     
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/slider.css">
+    <!-- <link rel="stylesheet" href="./css/slider.css"> -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ8JKFKJL6">
     </script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -62,7 +63,7 @@
                 style="display:none;visibility:hidden"></iframe></noscript>
         
     <header>
-        <img src="./img/logo novo transp.webp" alt="logo cartao">     
+        <img src="./img/logo novo transp.webp" id="logo" alt="logo cartao">     
 
         <nav id="menu">
             <ul>
@@ -98,15 +99,14 @@
             </ul>        
             
             <div class="nav__close" id="nav-close">
-                <i class="ri-close-line"></i>
+                <img src="./img/close-line.svg" alt="botão de fechar menu">
+                
             </div>            
-        </div>
-        
+        </div>        
                    
         <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-apps-2-fill"></i>
-        </div>
-        
+            <img src="./img/apps-2-fill.svg" alt="botão de abrir menu">
+        </div>        
 
         <a id="zap"  href="https://api.whatsapp.com/send?phone=5521981860460&text=Ronin, te vi no google,preciso da ajuda de vocês" target="_blank">
             <button><div><img src="./img/whatsapp-line.svg" alt="zap"/><span>Conversar no whatsapp</span></div></button>
@@ -305,10 +305,12 @@
     </footer>
 
     <!-- ========== SCROLL UP ========== -->
+    <div id="scrollContainer">
+        <a href="#inicio" name="scrollUp" class="scrollup" id="scroll-up">
+            <img src="./img/arrow-up-line.svg" alt="botão para rolagem ao inicio">
+        </a>
+    </div>
     
-    <a href="#inicio" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line"></i>
-    </a>
 </Body>
     <script src="./js/main.js"></script>
 
