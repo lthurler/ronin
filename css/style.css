@@ -200,7 +200,9 @@ h1 {
 }
 
 /* section {
-    padding-bottom: 5rem;
+    height: 100vh;
+     width: 95vw;
+    max-width: 100vw;     
 } */
 
 #home {
@@ -217,14 +219,20 @@ h1 {
     padding-left: 1rem;   
 }
 
+.container {
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+}
+
 .slides {
     padding: 0;
     width: 95vw;
-    height: 450px;
+    height: 70vh;
     display: block;
     margin: 0 auto;
     position: relative;
-    border-radius: 50px;
+    border-radius: 0 0 50px 50px;
     border: none;
     overflow: hidden;
     background-size: cover;
@@ -251,11 +259,16 @@ h1 {
     top: 0;
     opacity: 0;
     width: 95vw;    
-    height: 470px;
+    height: 70vh;
     display: block;
     position: absolute;
     transition: all .7s ease-in-out;
+}
 
+#slide-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .slide p {
@@ -290,14 +303,14 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color:#673085;    
-    max-width: 100vw;
+    min-height: 100vh;
 }
 
 .section-container-esquerda {
     display: flex;
     flex-direction: column;
     background-color: #92429F;    
-    max-width: 100vw;
+    min-height: 100vh;
 }
 
 .direita {
@@ -314,6 +327,8 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
     color: #ffff;
+    padding-top: 5rem;
+    
 }
 
 .section-conteudo h2 {
@@ -330,6 +345,7 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     color: #ffff;
+    padding-top: 5rem;    
 }
 
 .section-conteudo-esquerda h2 {
@@ -344,8 +360,7 @@ h1 {
 .section-texto {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 4rem;
-    padding: 0 4rem;
+    padding: 0 4rem;    
     font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
@@ -553,6 +568,11 @@ footer div nav ul {
     transition: bottom .3s, transform .3s, background .4s;
 }
 
+.scrollup img {
+    width: 100%;
+    height: auto;
+}
+
 .scrollup:hover {
     transform: translate(-.25rem);
 }
@@ -570,10 +590,10 @@ footer div nav ul {
 
 @media screen and (max-width: 950px) {
 
-    body {
+    /* body {
         overflow-x: hidden;
         max-width: 100vw;            
-    }    
+    }     */
 
     #menu {
         display: none;
@@ -613,7 +633,7 @@ footer div nav ul {
     }
 
     #home {
-        padding-top: 4rem;
+        padding-top: 3rem;
         padding-bottom: 5rem;        
     }
 
@@ -648,7 +668,7 @@ footer div nav ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 4rem 0;
+        padding: 6rem 0;
         width: 100%;
     }
 
@@ -679,13 +699,17 @@ footer div nav ul {
         order: 1;
     }
 
-        #web-foto,
-        #camera-foto,
-        #redes-foto,
-        #suporte-foto {
-            max-width: 100%;
-            padding: 0;
-        }
+    #web-conteudo {
+        padding-bottom: 0;
+    }
+
+    #web-foto,
+    #camera-foto,
+    #redes-foto,
+    #suporte-foto {
+        max-width: 100%;
+        padding: 0;
+    }
 
     #web-texto,
     .section-texto-esquerda div:first-child,
@@ -725,4 +749,15 @@ footer div nav ul {
     .scrollup {
         width: 10%;
     }
+
+    /* @media screen and (min-width: 1700px) {
+        .section-conteudo {
+            padding: 15rem 0;
+        }
+
+        .section-conteudo-esquerda {
+            padding: 15rem 0;
+        }
+
+    } */
 }
