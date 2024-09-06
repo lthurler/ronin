@@ -608,14 +608,15 @@ footer div nav ul {
     }
 
     .nav__toggle {
-        display: flex;
+        display: inline-flex;
         justify-content: flex-end;
-        cursor: pointer;
+        /* cursor: pointer; */
         padding-right: 2rem;
     }
 
     .nav__toggle img {
         width: 20%;
+        display: inline;
     }
 
     .nav__close img {
